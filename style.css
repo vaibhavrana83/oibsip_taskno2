@@ -1,0 +1,575 @@
+
+body{
+    background-color: rgb(7, 0, 0);
+    color:white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+   
+   
+}.first{
+    background-position: 100%;
+    background-size: cover;
+    height:100vh;
+    padding-top: 0px;
+    padding-left:0px;
+    width: 100%;
+}
+.first:hover{
+    background-color:grey;
+    width:100%;
+   background-size: cover;
+    transition:.8s;
+}
+span{
+    color:orange;
+    border:5px solid orange;
+    border-radius: 30px;
+    padding:5px 15px;
+    background-color:black;
+    font-size:30px;    
+} nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2px 0px;
+    background-color:grey;
+    width:100%;  
+}
+nav a{
+    text-decoration: none;
+    color:antiquewhite;
+    font-size: 100%;
+}
+.subscribebtn{
+    background-color: orange;
+    color:aliceblue;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight:bold;
+    padding:10px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.subscribebtn a:hover{
+    transform:scale(1.2);
+}
+nav ul li {
+     list-style: none;
+     display:inline-block;
+     padding-left:0px;
+    padding-right:0px;
+    margin-left: 0px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: beige;
+    justify-content: space-between;
+    padding:4px 30px;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    text-transform: capitalize;
+    color:orange;
+}
+.introduction{
+    position: absolute;
+    top: 60%;
+    left:8%;
+    transform:translateY(-50%);
+    align-items: center;
+    justify-content: center;
+    display:inline-block;   
+}
+.introduction h1{
+    color:orange;
+    font-size: 75px;   
+}
+.introduction h4{
+color:white;
+letter-spacing: 1px;
+font-size: 40px;
+}
+.introduction h3{
+    font-size:30px;
+}
+.introduction a{  
+    background-color: orange;
+    color:rgb(252, 251, 250);
+    border-radius: 30px;
+    margin-top: 70px;
+    padding: 5px 15px;
+    align-items: center;
+    justify-content: center;
+    display:inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.introduction a:hover{
+    color:white;
+    border:2px solid orange;
+    background-color: black;
+    transition: .6s;
+}
+
+
+/* About Section CSS starts*/
+
+
+.aboutme{
+    height:100vh;
+    width:100%;
+    padding:100px 0px;
+    background-color:black;  
+}
+.aboutme:hover{
+    background-color:grey;
+    transition:.8s;
+}
+.aboutme img{
+    height:auto;
+    width:430px;
+}
+.main{ 
+    display:flex;
+    max-width:95%;
+    margin:0 auto;
+    align-items:center;
+    justify-content: space-around;
+}
+.aboutmetext{ 
+    align-content: center;
+    justify-content: center;
+    padding:20px 100px;
+    line-height: 30px;
+}
+.aboutmetext h2{
+    color:orange;
+    font-size:75px;
+    text-transform: capitalize;
+}
+.aboutmetext h4{
+    font-size:22px;
+}
+.aboutmetext p{
+    color:rgb(207, 198, 157);
+    letter-spacing:1px;
+    line-height:25px;
+    font-size:18px;
+    margin-bottom: 65px;
+}
+button{
+    background-color:orange;
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 30px;
+    padding:3px 30px;
+    font-family: 'Josefin Sans', sans-serif;  
+}
+button:hover{
+    background-color:black;
+    border:2px solid orange;
+    color:white;
+    transition:.5s;
+}
+
+/*   Skills Section CSS Starts   */
+
+.skills{
+   display:inline-block;
+    margin:40px 0px;
+    width:100%;
+    height:100vh;
+    background-color:black;
+}
+.skills:hover{
+    background-color:grey;
+    transition:.8s;
+}
+.skills h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 45px;
+   margin-left: 550px;
+   margin-right: 550px;
+   padding-left:120px;
+   padding-top:10px;
+   background-color:orange;
+   border-radius: 30px; 
+   border:2px solid black;
+   color:white;
+}
+.skills h1:hover{
+    border:2px solid orange;
+    background-color: black;
+    color:white;
+    transition:.5s;
+}
+.teamwork{
+    display:inline-block;
+    margin:5px 10px;
+    padding:10px 30px;
+    width:27%;
+    height:65%;
+    background-color: rgb(63, 62, 62);
+   color:white;
+   border:2px solid orange;  
+}
+.teamwork:hover{
+    background-color:black;
+    border:3px solid orange;
+    color:orange;
+    box-shadow:10px 10px 40px 10px white;
+}
+.teamwork h2{
+    background-color:black;
+    color:white;
+    border-radius:35px;
+    height:50px;
+    padding:0px 125px;
+    padding-top:20px;
+    box-shadow: 3px 3px 3px 3px orange;
+    border:2px solid orange;
+    font-size:30px;   
+}
+.teamwork p{
+    font-size:20px;
+}
+.teamwork button{
+    margin-top:50px;
+    margin-bottom:20px;
+    background-color:black;
+    color:orange;
+    border:2px solid white;
+}
+.teamwork button:hover{
+    color:black;
+    border:2px solid white;
+    background-color: orange;
+}
+.selfmanagement{   
+    display:inline-block;
+    margin:5px 10px;
+    padding:10px 30px;
+    width:27%;
+    height:65%;
+   background-color: rgb(63, 62, 62);
+   color:white; 
+   border:2px solid orange;  
+}
+.selfmanagement:hover{
+    background-color:black;
+    border:3px solid orange;
+    color:orange;
+    box-shadow:10px 10px 40px 10px white;
+}
+.selfmanagement h2{
+    background-color:black;
+    border:3px solid orange;
+    border-radius:35px;
+    color:white;
+    font-size:30px;
+    height:50px;
+    padding:0px 0px;
+    padding-top:20px;
+    padding-left:150px;
+    box-shadow: 3px 3px 3px 3px orange;
+}
+.selfmanagement p{
+    font-size:20px;
+}
+.selfmanagement button{
+    margin-top:50px;
+    margin-bottom:20px;
+    background-color:black;
+    color:orange;
+    border:2px solid white;
+}
+.selfmanagement button:hover{
+    color:black;
+    border:2px solid white;
+    background-color: orange;
+}
+.communication{
+    display:inline-block;
+    margin:5px 10px;
+    padding:10px 30px;
+    width:27%;
+    height:65%;
+   background-color: rgb(63, 62, 62);
+   color:white;
+   border:2px solid orange;
+   }
+.communication:hover{
+    background-color:black;
+    border:3px solid orange;
+    color:orange;
+    box-shadow:10px 10px 40px 10px white;
+}
+.communication h2{
+    background-color:black;
+    color:white;
+    border-radius:35px;
+    border:3px solid orange;
+    height:50px;
+    padding:0px 90px;
+    padding-top:20px;
+    box-shadow: 3px 3px 3px 3px orange;
+    font-size:30px;
+}
+   .communication p{
+    font-size:20px;
+}
+   .communication button{
+    margin-top:50px;
+    margin-bottom:20px;
+    background-color:black;
+    color:orange;
+    border:2px solid white;
+}
+.communication button:hover{
+    color:black;
+    border:2px solid white;
+    background-color: orange;
+}
+
+
+/*------------------------Interest and Qualities CSS Starts------------------------*/
+
+
+.work{
+    display:inline-block;
+     margin:90px 0px;
+     width:100%;
+     height:110vh;
+    background-color:black;
+ }
+ .work:hover{
+    background-color:grey;
+    transition:.8s;
+ }
+ .work h1{
+     font-family: 'Josefin Sans', sans-serif;
+     font-size: 45px;
+    margin-left: 470px;
+    margin-right: 470px;
+    padding-left:95px;
+    padding-top:13px;
+    padding-bottom:13px;
+    background-color:orange;
+    border-radius: 50px; 
+    border:2px solid black;
+    color:white;
+ }
+ .work h1:hover{
+     border:2px solid orange;
+     background-color: black;
+     color:white;
+     transition:.5s;
+ }
+ .landingpage{
+     display:inline-block;
+     margin:5px 10px;
+     padding:10px 30px;
+     width:27%;
+     height:75%;
+     background-color: rgb(63, 62, 62);
+    color:white;
+    border:2px solid orange;  
+ }
+ .landingpage:hover{
+     background-color:black;
+     border:3px solid orange;
+     color:orange;
+     box-shadow:10px 10px 10px 20px rgb(104, 103, 103);
+ }
+ .landingpage h2{
+     background-color:black;
+     color:white;
+     border-radius:35px;
+     height:50px;
+     padding:0px 90px;
+     padding-top:20px;
+     box-shadow: 3px 3px 3px 3px orange;
+     border:2px solid orange;
+     font-size:30px;    
+ }
+ .landingpage p{
+     font-size:20px;
+ }
+ .landingpage button{
+     margin-top:50px;
+     margin-bottom:20px;
+     background-color:black;
+     color:orange;
+     border:2px solid white;
+ }
+ .landingpage button:hover{
+     color:black;
+     border:2px solid white;
+     background-color: orange;
+ }
+ .portfolio{   
+     display:inline-block;
+     margin:5px 10px;
+     padding:10px 30px;
+     width:27%;
+     height:75%;
+    background-color: rgb(63, 62, 62);
+    color:white; 
+    border:2px solid orange;  
+ }
+ .portfolio:hover{
+     background-color:black;
+     border:3px solid orange;
+     color:orange;
+     box-shadow:10px 10px 10px 20px rgb(104, 103, 103);
+ }
+ .portfolio h2{
+     background-color:black;
+     border:3px solid orange;
+     border-radius:35px;
+     color:white;
+     font-size:30px;
+     height:50px;
+     padding:0px 125px;
+     padding-top:20px;
+     box-shadow: 3px 3px 3px 3px orange;
+ }
+ .portfolio p{
+     font-size:20px;
+ }
+ .portfolio button{
+     margin-top:50px;
+     margin-bottom:20px;
+     background-color:black;
+     color:orange;
+     border:2px solid white;
+ }
+ .portfolio button:hover{
+     color:black;
+     border:2px solid white;
+     background-color: orange;
+ }
+ .todolist{
+     display:inline-block;
+     margin:5px 10px;
+     padding:10px 30px;
+     width:27%;
+     height:75%;
+    background-color: rgb(63, 62, 62);
+    color:white;
+    border:2px solid orange;
+    }
+    .todolist:hover{
+     background-color:black;
+     border:3px solid orange;
+     color:orange;
+     box-shadow:10px 10px 10px 20px rgb(104, 103, 103);
+ }
+    .todolist h2{
+     background-color:black;
+     color:white;
+     border-radius:35px;
+     border:3px solid orange;
+     height:50px;
+     padding:0px 120px;
+     padding-top:20px;
+     box-shadow: 3px 3px 3px 3px orange;
+     font-size:30px;
+ }
+    .todolist p{
+     font-size:20px;
+ }
+    .todolist button{
+     margin-top:50px;
+     margin-bottom:20px;
+     background-color:black;
+     color:orange;
+     border:2px solid white;
+ }
+ .todolist button:hover{
+     color:black;
+     border:2px solid white;
+     background-color: orange;
+ }
+
+
+
+ /* --------------------------Contact CSS Starts -----------------------------*/
+
+
+
+.contact{
+    width:100%;
+    height:290px;
+    background-color:black;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact:hover{
+    background-color:rgb(87, 82, 82);
+    transition:.8s;
+}
+.contact p{
+    color:white;
+    font-size:30px;
+}
+.contact .button2{
+    background-color:orange;
+    color:white;
+    text-decoration: none;
+    font-weight:bold;
+    padding:13px 30px;
+    border-radius:30px;
+    transition:.4s;
+}
+.contact .button2:hover{
+ border:2px solid white;
+ background-color:black;
+ color:orange;
+
+}
+
+
+/*----------------------Footer CSS Starts-----------------------------*/
+.footer{
+width:100%;
+height:60%;
+margin: 60px 0px;
+display:flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-color:black;
+}
+.footer:hover{
+background-color:grey;
+transition:.8s;
+}
+.footer h1{
+    font-size:45px;
+    font-weight: bold;
+}
+.footer p{
+    font-size: 20px;
+    font-weight: bold;
+    color:orange;   
+}
+.social{ 
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom:20px;
+    margin-top:25px;  
+}
+.social a{
+    margin:0px 3px;
+    width:40px;
+    height:40px;
+    background-color:transparent;
+}
+/*-----------------------------CSS Ends------------------------------------*/
